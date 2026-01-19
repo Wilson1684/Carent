@@ -223,12 +223,68 @@ body {
 
 .step_container{
     margin-top: 100px;
-    padding: 10px 35px;
+    height: 600px;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.step_slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 100%;
+    width: 35%;
 }
 
 .step_title{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
     color: rgba(69, 108, 213);
+}
+
+.step_des{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.step_img_box{
+    width: 60%;
+    height: 100%;
+    filter: brightness(80%);
+}
+
+.step_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.step_card_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+}
+
+.step_card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.step_button{
+    width: 45px;
+    height: 45px;
+    border-radius: 70px;
+    border: none;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 15px;
+}
+
+.step_intro{
+    font-size: 19px;
 }
