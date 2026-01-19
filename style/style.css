@@ -12,9 +12,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1480px;
+    max-width: 1400px;
     position: relative;
     padding: 20px 5px;
+    overflow: hidden;
 }
 
 .home_navbar{
@@ -23,7 +24,8 @@ body {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    width: 95%;
+    width: 94%;
+    max-width: 1450px;
     z-index: 10;
 }
 
@@ -104,9 +106,10 @@ body {
 
 .hero_des{
     text-shadow: 2px 2px 4px #000000;
-    width: 550px;
+    max-width: 550px;
     color: #ffffff;
     font-size: 15px;
+    width: 80%;
 }
 
 .check_button{
@@ -138,4 +141,94 @@ body {
     width: 120px;
     height: 120px;
     opacity: 0.3;
+}
+
+.services_container{
+    margin: 0 auto;
+    background-color: rgba(12, 16, 28);
+    border-radius: 15px;
+    padding: 10px 35px;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.services_slogan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slogan_title{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(69, 108, 213);
+}
+
+.slogan_bg{
+    text-shadow: 2px 2px 4px #000000;
+    width: 45%;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.slogan_sm{
+    width: 40%;
+    color: rgb(157, 164, 175);
+    font-size: 16px;
+}
+
+.services_card_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.services_card{
+    border-radius: 20px;
+    padding: 35px 35px;
+    background-color: rgba(25, 34, 49);
+    width: 26%;
+    margin-bottom: 50px;
+    box-shadow: rgb(47, 57, 72) 0px 0px 0px 3px;
+}
+
+.icon_border{
+    padding: 5px 10px;
+    background-color: rgba(51, 62, 80);
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    width: 75px;
+}
+
+.card_icon{
+    padding: 2px;
+    width: 70px;
+    border-radius: 65px;
+    background-color: rgba(72, 85, 101);
+}
+
+.services_card_title{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.services_card_des{
+    color: rgb(157, 164, 175);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.step_container{
+    margin-top: 100px;
+    padding: 10px 35px;
+
+}
+
+.step_title{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(69, 108, 213);
 }
